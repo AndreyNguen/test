@@ -6,7 +6,7 @@ import Select from "../UI/Select/Select";
 import PostList from "../components/PostList";
 import Button from "../UI/Button/Button";
 
-function App() {
+function Posts() {
   const [posts, setPosts] = useState([]);
   const [selectedSort, setSelectedSort] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -73,4 +73,4 @@ function App() {
   );
 }
 
-export default App;
+export default Posts;
